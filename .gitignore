@@ -1,0 +1,33 @@
+
+# Java build output
+target/
+build/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+config-local.properties
+secrets.properties
+
+# Uploaded documents and OCR temporary files
+uploads/
+temp-ocr/
+
+# Operating system files
+.DS_Store
+Thumbs.db
